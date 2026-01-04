@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.hello-box {
+  margin: 40px 0;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  min-width: 300px;
+}
+
+.message {
+  font-size: 2rem;
+  color: #61dafb;
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.refresh-btn {
+  background-color: #61dafb;
+  border: none;
+  color: #282c34;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.refresh-btn:hover {
+  background-color: #4fa8c7;
+}
+
+h1 {
+  color: #61dafb;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #ccc;
+  margin: 5px 0;
+}
