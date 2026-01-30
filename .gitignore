@@ -1,1 +1,10 @@
-/newapp
+# Ignorer le dossier que tu ne veux JAMAIS pousser
+newapp/
+newapp
+
+# Optionnel : ignorer les fichiers temporaires / build / wasm générés
+*.wasm
+*.js  # si tu génères des glue js d'emscripten
+build/
+dist/
+node_modules/
