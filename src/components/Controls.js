@@ -17,7 +17,7 @@ const Controls = ({
   return (
     <div className="controls">
       <h3>Single Algorithm Mode</h3>
-      
+
       <div className="algorithm-section">
         <div className="algorithm-buttons">
           <button
@@ -73,7 +73,7 @@ const Controls = ({
         >
           Visualize {algorithm === 'dijkstra' ? "Dijkstra's" : "BFS"} Algorithm
         </button>
-        
+
         <button
           className="clear-btn"
           onClick={onClear}
@@ -81,7 +81,7 @@ const Controls = ({
         >
           Clear Grid
         </button>
-        
+
         <button
           className="maze-btn"
           onClick={onGenerateMaze}

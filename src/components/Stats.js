@@ -17,7 +17,7 @@ const Stats = ({ stats }) => {
           </tr>
         </tbody>
       </table>
-      
+
       <div className="execution-time">
         <h4>Execution Time</h4>
         <div className="time-value">
