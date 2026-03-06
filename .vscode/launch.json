@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/dell/Desktop/DijkstraProject/FindingPathBackEnd",
-      "program": "c:/Users/dell/Desktop/DijkstraProject/FindingPathBackEnd/build/Debug/outDebug",
+      "cwd": "c:/Users/dell/Desktop/DijkstraProject/FindingPathBackEnd/AStart/code",
+      "program": "c:/Users/dell/Desktop/DijkstraProject/FindingPathBackEnd/AStart/code/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
