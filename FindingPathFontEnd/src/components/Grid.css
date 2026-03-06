@@ -1,0 +1,64 @@
+.node-controls {
+  margin: 15px 0;
+  padding: 15px 0;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.node-controls h4 {
+  margin: 0 0 10px 0;
+  color: #475569;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.node-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.node-btn {
+  padding: 10px 12px;
+  border: 2px solid #e2e8f0;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #475569;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.node-btn:hover:not(:disabled) {
+  border-color: #4f46e5;
+  background: #f5f3ff;
+}
+
+.node-btn.active {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  border-color: transparent;
+}
+
+.reset-nodes-btn {
+  padding: 10px 12px;
+  border: 2px solid #e2e8f0;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #dc2626;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.reset-nodes-btn:hover:not(:disabled) {
+  border-color: #dc2626;
+  background: #fef2f2;
+}
