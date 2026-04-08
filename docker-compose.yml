@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build:
+      context: ./FindingPathFontEnd
+      dockerfile: Dockerfile
+    ports:
+      - "3036:80"  # Mapper le port 80 du conteneur vers 3000 de l'hôte
+    restart: unless-stopped

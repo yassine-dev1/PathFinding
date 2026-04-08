@@ -1,6 +1,6 @@
-import { useState, useCallback } from 'react';
-import { PLACEMENT_MODES } from '../constants/gridConstants';
-import { createEmptyGrid } from '../utils/gridUtils';
+import { useState, useCallback }    from 'react';
+import { PLACEMENT_MODES }          from '../constants/gridConstants';
+import { createEmptyGrid }          from '../utils/gridUtils';
 
 const useGrid = (ROWS, COLS) => {
     const [grid, setGrid] = useState([]);
