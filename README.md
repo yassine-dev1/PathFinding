@@ -103,18 +103,25 @@ git clone https://github.com/yassine-dev1/PathFinding.git
 cd PathFinding
 ```
 
-## 2️⃣ Start the React Frontend
+<!-- ## 2️⃣ Start the React Frontend
 
 ``` bash
 cd FindingPathFontEnd
 npm install
 npm run start
+``` -->
+
+ ## 2️⃣ Start the React Frontend
+
+``` bash
+docker compose up -d --build ;
+start http://localhost:3036     # can you change port number in docker-compose.yml (exist in racine project)
+``` 
+## Stop and Remove containers :
+
+```bash
+docker compose down ;
 ```
-
-The application will start at:
-
-    http://localhost:3000
-
 ------------------------------------------------------------------------
 
 # 🔧 Recompiling C++ to WebAssembly
@@ -126,7 +133,7 @@ If you modify the C++ algorithms, you must recompile them using
 cd FindingPathBackEnd
 ```
 
-Example compilation command for **A**\*:
+Exemple compilation command for **A**\*:
 
 ``` bash
 cd FindingPathBackEnd/AStart ;
